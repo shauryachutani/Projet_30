@@ -75,6 +75,35 @@ box23.display();
 box24.display();
 box25.display();
 box26.display();
+  
+box1.score();
+box2.score();
+box3.score(); 
+box4.score();
+box5.score();
+box6.score();
+box7.score();
+box8.score();
+box9.score();
+box10.score();
+box11.score();
+box12.score();
+box13.score();
+box14.score();
+box15.score();
+box16.score();
+box17.score();
+box18.score();
+box19.score();
+box20.score();
+box21.score();
+box22.score();
+box23.score();
+box24.score();
+box25.score();
+box26.score();
+  
+  text("score: "+score,200,200)
 }
 function mouseDragged(){
   Matter.Body.setPosition(player.body,{x:mouseX,y:mouseY});
